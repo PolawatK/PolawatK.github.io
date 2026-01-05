@@ -459,6 +459,9 @@ nav{
     width: 380px;
     overflow: hidden;
     }
+    .scroll-btn{
+        display: none;
+    }
 }
 .btn-project a{
     text-decoration: none;
