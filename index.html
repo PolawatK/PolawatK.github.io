@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio | Polawat</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Polawat</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn" disabled>Dowload CV <i class="fa-regular fa-file-lines"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+    <!-- Main content-->
+     <main class="wrapper">
+        <!-- Featured content-->
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Polawat Krates</span>
+                </div>
+                <div class="featured-name">
+                    <p>I'm <span class="typedText">CS Student</span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Hello, I'm Polawat Krates (Folk). <br> 
+                    My goal is to grow into a developer who can confidently handle full-stack responsibilities,
+                    <br>I continuously develop myself and seek new knowledge every day.</p>
+                </div>
+                <div class="featured-text-btn">
+                <button class="btn blue-btn"> <a href="Resume-Polawat.pdf" download>Dowload Resume <i class="fa-regular fa-file-lines"></i></a></button>
+                <button class="btn" disabled>Dowload CV <i class="fa-regular fa-file-lines"></i></button>
+            </div>
+            <div class="social_icons">
+                <div class="icon"><i class="fa-brands fa-line"></i></div>
+                <div class="icon"><i class="fa-brands fa-github"></i></div>
+                <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="Polawat.png" alt="me">
+                </div>
+            </div>
+            <a href="#about" class="scroll-btn">
+                <i class="fa-regular fa-circle-down"></i>
+                <p>Scroll Down</p>
+            </a>
+        </section>
+        <!-- About-->
+         <section class="section" id="about">
+            <div class="top-header">
+                <h1>About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>My introduction</h3>
+                        <p>I am continuously improving my skills, exploring new technologies, and taking on projects that challenge me to grow. With experience in tools such as WordPress, Angular, Bootstrap, Java, PHP, and more, I aim to become a versatile developer capable of delivering complete end-to-end solutions. I value teamwork, adaptability, and problem-solving, and I bring a strong learning mindset to every project I work on.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>TypeScript</span>
+                            <span>Responsive Web Design</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Php</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MySql</span>
+                            <span>Postgress</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Framework/Tools</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Flutter</span>
+                            <span>Bootstrap 5</span>
+                            <span>Git</span>
+                            <span>Angular</span>
+                            <span>Figma</span>
+                            <span>Wordpress</span>
+                            <span>Flutter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>UI  Design(Figma) : <br> “Going Well”</h3>
+                        <br>
+                        <p>Design for An application for health care, such as recording health data, performing initial self-assessments</p>
+                        <button class="btn-project" ><a href="https://www.figma.com/design/6XN9cn2NdBOeXhUWUtRCIk/Going-Well?node-id=0-1&t=TR1LrcmG7TJVz0ol-1" target="_blank" rel="noopener noreferrer">Click to view </a><i class="fa-regular fa-file-lines"></i></button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="about-info">
+                        <h3>Web development(Wordpress) : “ChangtaiBuilder”</h3>
+                        <br>
+                        <p>Design for An application for health care, such as recording health data, performing initial self-assessments</p>
+                        <button class="btn-project" ><a href="https://changtaibuilder.com/" target="_blank" rel="noopener noreferrer">Click to view </a><i class="fa-regular fa-file-lines"></i></button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="about-info">
+                        <h3>Wep Application(Html/Css/Js/Php) : “GoodDayShop”</h3>
+                        <br>
+                        <p>Developed a full-stack e-commerce pet shop website using HTML, CSS, JavaScript, PHP , Xampp(PhpMyAdmin) </p>
+                        <button class="btn-project" ><a href="https://github.com/PolawatK/Projectwepapp---PETSHOP.git" target="_blank" rel="noopener noreferrer">Click to view </a><i class="fa-regular fa-file-lines"></i></button>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- contact-->
+         <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Get in touch</h1>
+            </div>
+            <div class="row">
+                <div class="col-left">
+                    <div class="image-contact">
+                        <img src="Me.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-right">
+                   <form onsubmit="return Contact()">
+                        <div class="input-box">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Your Name" class="contact-inputs" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="Email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Your Email" class="contact-inputs" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="Massage">Massage</label>
+                            <textarea name="massage" placeholder="massage" id="massage" class="contact-inputs" required ></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit<i class="fa-solid fa-arrow-right"></i></button>
+                   </form>
+                </div>
+            </div>
+         </section>
+     </main>
+    <!-- type-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- scroll-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
