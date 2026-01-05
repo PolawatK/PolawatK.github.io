@@ -463,6 +463,9 @@ nav{
         display: none;
     }
 }
+.col-right{
+    height: 100%;
+}
 .btn-project a{
     text-decoration: none;
     color: #777;
